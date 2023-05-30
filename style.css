@@ -24,7 +24,7 @@ header .photo img {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 80%;
     margin-right: 20px;
 }
 
