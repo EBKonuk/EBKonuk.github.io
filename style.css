@@ -17,14 +17,14 @@ header {
     display: flex;
     align-items: center;
     padding-bottom: 20px;
-    border-bottom: 2px solid #006ADC;
+    border-bottom: 2px solid #007BFF;
 }
 
 header .photo img {
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border-radius: 80%;
+    border-radius: 50%;
     margin-right: 20px;
 }
 
@@ -33,23 +33,13 @@ header .info {
 }
 
 h1, h2 {
-    color: #006ADC;
+    color: #007BFF;
 }
 
 section {
-    display: flex;
     margin-top: 20px;
 }
 
-section .left {
-    width: 30%;
-    margin-right: 10px;
-}
-
-section .right {
-    flex-grow: 1;
-}
-
-ul {
-    padding-left: 20px;
+h3 span {
+    float: right;
 }
