@@ -37,9 +37,19 @@ h1, h2 {
 }
 
 section {
+    display: flex;
     margin-top: 20px;
 }
 
-h3 span {
-    float: right;
+section .left {
+    width: 30%;
+    margin-right: 10px;
+}
+
+section .right {
+    flex-grow: 1;
+}
+
+ul {
+    padding-left: 20px;
 }
