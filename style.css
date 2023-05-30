@@ -2,6 +2,9 @@ body {
     font-family: Arial, sans-serif;
     color: #333;
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
@@ -14,21 +17,35 @@ header {
     display: flex;
     align-items: center;
     padding-bottom: 20px;
-    border-bottom: 2px solid #333;
+    border-bottom: 2px solid #007BFF;
 }
 
-header img {
+header .photo img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
     margin-right: 20px;
 }
 
-section {
-    margin-top: 20px;
+header .info {
+    flex-grow: 1;
 }
 
-h1, h2, h3 {
+h1, h2 {
     color: #007BFF;
 }
 
-article {
-    margin-bottom: 10px;
+section {
+    display: flex;
+    margin-top: 20px;
+}
+
+section h2 {
+    width: 30%;
+    margin-right: 10px;
+}
+
+section p {
+    flex-grow: 1;
 }
